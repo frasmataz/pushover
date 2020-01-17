@@ -1,11 +1,17 @@
 ## Running pushover-server:
 
 Install node version:
-`nvm install`
-`nvm use`
+```
+nvm install
+nvm use
+```
 
 Install dependencies:
-`npm i`
+```
+npm i
+```
 
 Run server:
-`node index.js`
+```
+node index.js
+```
