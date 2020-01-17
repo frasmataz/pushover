@@ -1,0 +1,22 @@
+{
+  "name": "pushover-server",
+  "version": "0.0.1",
+  "description": "Pushover server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/owlbread/pushover.git"
+  },
+  "author": "Fraser Sharp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/owlbread/pushover/issues"
+  },
+  "homepage": "https://github.com/owlbread/pushover#readme",
+  "dependencies": {
+    "nodejs-websocket": "^1.7.2"
+  }
+}
