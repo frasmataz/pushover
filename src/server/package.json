@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/owlbread/pushover#readme",
   "dependencies": {
-    "nodejs-websocket": "^1.7.2"
+    "ws": "^7.2.1"
   }
 }

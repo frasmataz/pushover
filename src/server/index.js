@@ -1,9 +1,5 @@
-const websocket = require('nodejs-websocket')
+const WebSocket = require('ws')
 
-var server = websocket.createServer(function (conn) {
-	console.log("New connection opened.")
+const wss = new WebSocket.Server({ port: 8080 })
 
-	conn.on("close", function() {
-		console.log("Connection closed.")
-	})
-}).listen(8080)
+wss.on('connection', (ws) => console.log("New connection opened."))
